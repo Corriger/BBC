@@ -1,0 +1,248 @@
+body {
+  MARGIN: 0 AUTO;
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  height: 39.5px;
+  background-color: black;
+}
+
+#logo {
+  border-left: 0px;
+}
+
+#main-one {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#header-container {
+  float: left;
+  margin: 0 auto;
+}
+
+.navi {
+  top: 0px;
+  float: left;
+  vertical-align: middle;
+  width: 100px;
+  height: 100%;
+  border-left: 1px solid grey;
+  padding: 8px 3px;
+  text-align: center;
+  color: white;
+}
+
+a:link > span{
+  text-align:left;
+}
+
+#first {
+  float: left;
+  width: 166.05px;
+}
+
+a:link {
+  color: white;
+  margin: 0 20px;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#more {
+  float: left;
+  padding-left: 12px
+  padding-right: 30px;
+}
+
+#search {
+  float: left;
+  vertical-align: middle;
+  width: 142px;
+  padding: 12px 6px;
+  border: 0px;
+}
+
+form {
+  float: left;
+  border-style: none;
+}
+
+section > span {
+  margin: 0 auto;
+  width: 100%;
+  font-size: 18px;
+}
+
+header+section {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 500px;
+  padding: 20px;
+  background-color: lightgrey;
+}
+
+#main-two {
+  float: left;
+  vertical-align: text-bottom;
+  width: 100%;
+  max-width: 700px;
+  height: 380px;
+  margin: 0 auto;
+  padding-top: 240px;
+  background-image: url(http://media.animevice.com/uploads/2/29947/658778-armstrong.jpg);
+  background-size: 101% 101%;
+  color: white;
+  text-align: left;
+  font-size: 14px;
+}
+
+h2 {
+  position: relative;
+  padding: 0px;
+  vertical-align: text-bottom;
+  font-size: 20px;
+}
+
+h2+span {
+  color: lightgrey;
+}
+
+#cate--main {
+  height: 18px;
+  margin-top: 5px;
+  padding-left: 3px;
+  border-left: 2px red solid;
+  vertical-align: middle;
+  font-size: 18px;
+  overflow: hidden;
+}
+
+.gradient {
+  width: 100%;
+  padding-left: 30px;
+  padding-bottom: 19px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.secondary {
+  float: left;
+  width: 1000px;
+  height: 400px;
+}
+
+h3 {
+  color: white;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: normal;
+}
+
+.top {
+  float: left;
+  width: 345px;
+  height: 180px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  padding-bottom: 3px;
+  background-size: 100% 100%;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.bottom {
+  float: left;
+  clear: right;
+  height: 180px;
+  width: 345px;
+  margin-left: 20px;
+  padding-bottom: 3px;
+  background-size: 100% 100%;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.gradient--two {
+  width: 100%;
+  margin-top: 93px;
+  padding-left: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+  vertical-align: top;
+  color: white;
+}
+
+#cate--main-two {
+  margin-top: 5px;
+  padding-left: 2px;
+  border-left: 2px cyan solid;
+  vertical-align: middle;
+  font-size: 15px;
+  overflow: hidden;
+}
+
+.third {
+  margin-top: 50px;
+  max-width: 1400px;
+}
+
+#news-top {
+  display: block;
+  margin: 0 15px;
+  padding-left: 2px;
+  border-left: 3px red solid;
+  text-align: left;
+  font-size: 20px;
+}
+
+.third img {
+  width: 25%;
+  max-width: 300px;
+  height: 200px;
+  border: 1px solid;
+  text-align: left;
+  margin: 0 30px;
+}
+
+/*---MEDIA QUERIES--*/
+
+@media screen and (max-width:320) {
+  #main-one nav .navi {
+    display: none;
+  }
+
+  #main-one nav .navi #logo {
+    display: block;
+  }
+
+  section > div {
+    display: none;
+  }
+
+  section > div+#main-two {
+    width: 100%;
+  }
+
+}
+
+@media (min-width:321) and (max-width:720) {
+  #main-one nav .navi {
+    display: none;
+  }
+
+  #main-one nav .navi #logo {
+    display: block;
+  }
+
+  section > div {
+    display: none;
+  }
+
+  section > div+#main-two {
+    width: 100%;
+  }
+}
